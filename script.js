@@ -95,7 +95,7 @@ function createBookCard(story, showBookmark) {
   return `
     <article class="book-card${showBookmark ? '' : ' recent-book-card'}" data-id="${story.id}" data-genre="${escapeHTML(story.genre)}" data-title="${escapeHTML(story.title)}" data-author="${escapeHTML(story.author)}">
       <div class="book-cover-wrapper">
-        <img src="images/${story.cover}?v=8" alt="Cover artwork for ${escapeHTML(story.title)}" class="book-cover" loading="lazy">
+        <img src="${story.cover}?v=8" alt="Cover artwork for ${escapeHTML(story.title)}" class="book-cover" loading="lazy">
         ${bookmark}
       </div>
       <div class="book-info">
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('story-author').textContent = story.author;
     document.getElementById('story-genre').textContent = story.genre;
     document.getElementById('story-synopsis').textContent = story.synopsis;
-    document.getElementById('story-cover').src = `images/${story.cover}?v=8`;
+    document.getElementById('story-cover').src = `${story.cover}?v=8`;
     document.getElementById('story-cover').alt = `Cover artwork for ${story.title}`;
     document.getElementById('story-image-caption').textContent = `${story.title} — ${story.genre}`;
     document.getElementById('chapter-title').textContent = `Chapter 1: ${story.chapter}`;
