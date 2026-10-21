@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read a Story - StoryBook</title>
+  <link rel="stylesheet" href="css/style.css?v=20261017">
+</head>
+<body>
+  <div id="progress-bar" aria-hidden="true"></div>
+
+  <header>
+    <div class="brand">
+      <h1><a href="index.html">StoryBook</a></h1>
+      <a class="back-link" href="index.html#home">← Back to stories</a>
+    </div>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#recent">Recently Viewed</a></li>
+        <li><a href="index.html#genre-filter-container">Genres</a></li>
+        <li><a href="index.html#library">Library</a></li>
+      </ul>
+      <button id="theme-toggle" type="button">🌙 Dark</button>
+    </nav>
+  </header>
+  <main>
+  <main>
+    <div class="reader-toolbar">
+      <div class="font-controls">
+        <span>Font Size:</span>
+        <button id="font-decrease" class="toolbar-btn" type="button" aria-label="Decrease text size">A-</button>
+        <button id="font-reset" class="toolbar-btn" type="button">Reset</button>
+        <button id="font-increase" class="toolbar-btn" type="button" aria-label="Increase text size">A+</button>
+      </div>
+    </div>
+
+    <article class="story-reading-area" id="story-content-area">
+      <header class="story-header">
+        <h2 id="story-title">Loading story...</h2>
+        <p class="author">Written by <strong id="story-author"></strong></p>
+        <span class="genre-tag" id="story-genre"></span>
+      </header>
+      <section class="story-meta">
+        <h3>Synopsis</h3>
+        <p id="story-synopsis"></p>
+      </section>
+      <figure class="story-image-container">
+        <img id="story-cover" src="images/cover1.svg" alt="" class="story-banner">
+        <figcaption id="story-image-caption"></figcaption>
+      </figure>
+      <section class="chapter-content" id="chapter-text">
+        <h3 id="chapter-title"></h3>
+        <div id="chapter-body"></div>
+      </section>
+      <div class="interactive-controls">
+        <button id="like-btn" class="action-btn" type="button">❤️ Like Story (<span id="like-count">0</span>)</button>
+      </div>
+      <section class="comments-section">
+        <h3>💬 Comments (<span id="comment-count">0</span>)</h3>
+        <div class="comment-form">
+          <label class="visually-hidden" for="comment-author">Your name</label>
+          <input type="text" id="comment-author" placeholder="Your Name..." required>
+          <label class="visually-hidden" for="comment-input">Your comment</label>
+          <textarea id="comment-input" placeholder="What do you think about this chapter?" rows="3" required></textarea>
+          <button id="post-comment-btn" class="action-btn" type="button">Post Comment</button>
+        </div>
+        <div id="comments-list" class="comments-list"></div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 StoryBook Project. All rights reserved.</p>
+  </footer>
+  <script src="js/script.js?v=12"></script>
+</body>
+</html>

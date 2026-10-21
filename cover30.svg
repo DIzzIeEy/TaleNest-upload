@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">A Thousand Small Miles</title>
+  <desc id="desc">Original Adventure cover artwork for A Thousand Small Miles.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#253d50"/>
+      <stop offset="1" stop-color="#9b795d"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#d1a878"/>
+      <stop offset="1" stop-color="#f0d29b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#sky)"/>
+  <circle cx="414" cy="228" r="68" fill="#f6d392"/>
+  <path d="M0 525 106 390l87 91 90-153 111 188 91-122 115 154v352H0z" fill="#3f5c68"/>
+  <path d="m217 424 66-96 70 119-72-30-27 26z" fill="#e4e6d4"/>
+  <path d="M0 596q104-68 212 0 118 73 236-4 74-48 152-12v320H0z" fill="#243e3b"/>
+  <path d="M266 900q-62-125 19-224 67-84-26-178 162 45 120 159-32 83 69 128 81 37 116 115z" fill="url(#road)"/>
+  <path d="M300 900q-27-107 52-189 57-57-9-131" fill="none" stroke="#f8e1b2" stroke-width="7" stroke-dasharray="12 18"/>
+  <path d="M92 597V502h76v95m286 0V475h78v122" fill="#202f39"/>
+  <path d="M78 504h105l-11-22h-83zm282-5h112l-14-25h-82z" fill="#d6ad75"/>
+  <g transform="translate(183 458)">
+    <circle cx="83" cy="55" r="27" fill="#c88e68"/>
+    <path d="M58 48q7-35 35-30 24 5 19 32z" fill="#272c35"/>
+    <path d="M49 91q34-30 69 0l22 119H35z" fill="#33465a"/>
+    <path d="m49 112-38 87m105-85 40 65" fill="none" stroke="#33465a" stroke-width="17" stroke-linecap="round"/>
+    <path d="m59 207-12 89m56-88 13 89" stroke="#253342" stroke-width="19" stroke-linecap="round"/>
+    <path d="m37 301 40 2m29-2 39 0" stroke="#161f2b" stroke-width="12" stroke-linecap="round"/>
+    <path d="M114 112q63-13 67 55l-13 83q-40 9-58-17l-8-79z" fill="#9a6647" stroke="#f0d29b" stroke-width="4"/>
+    <path d="M123 133q29-17 44 4m-48 16q36-16 51 4m-50 18q32-12 46 5" fill="none" stroke="#e8c48f" stroke-width="5"/>
+    <rect x="124" y="108" width="39" height="21" rx="7" fill="#c59861"/>
+  </g>
+  <g fill="#fff2d1">
+    <path d="M108 681h35v24h-35z"/><path d="M149 681h35v24h-35z"/>
+    <path d="M430 683h35v24h-35z"/><path d="M471 683h35v24h-35z"/>
+  </g>
+  <path d="M0 708q150-58 300-12t300-8v212H0z" fill="#111b25" opacity=".72"/>
+  <path d="M43 738h514" stroke="#f6d392" stroke-width="2"/>
+  <text x="300" y="780" text-anchor="middle" fill="#f6d392" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="6">ADVENTURE • 30</text>
+  <text x="300" y="832" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="35" font-weight="700">A Thousand Small Miles</text>
+  <text x="300" y="870" text-anchor="middle" fill="#fff" fill-opacity=".72" font-family="Arial,sans-serif" font-size="12" letter-spacing="5">A STORYBOOK ORIGINAL</text>
+</svg>
